@@ -13,4 +13,5 @@ print(SimpleMath.findMiddle(numbers));
 print(SimpleMath.sumList(numbers.cast<num>()));
 /// Only take odd numbers
 print(SimpleMath.findOddEven(true, numbers));
+print(SimpleMath.findMinMax(numbers.cast<num>(), false));
 ```

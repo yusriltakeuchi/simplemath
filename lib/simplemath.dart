@@ -17,4 +17,8 @@ class SimpleMath {
   static List<num> findOddEven(bool isOdd, List<num> numbers) 
     => numbers.where((_number) 
       => isOdd ? _number % 2 != 0 : _number % 2 == 0).toList();
+
+  /// Find min  and max value from the list
+  static num findMinMax(List<num> numbers, bool isMin) 
+    => numbers.reduce((isMin ? min : max));
 }

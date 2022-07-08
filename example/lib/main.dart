@@ -16,13 +16,14 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
 
   void loadMath() {
-    List<int> numbers = [1, 2, 5, 7, 9, 12, 15, 17, 20];
+    List<int> numbers = [2, 5, 7, 9, 12, 15, 17, 20];
     
     print(SimpleMath.randomNumber(200));
     print(SimpleMath.findMiddle(numbers));
     print(SimpleMath.sumList(numbers.cast<num>()));
     /// Only take even numbers
     print(SimpleMath.findOddEven(false, numbers));
+    print(SimpleMath.findMinMax(numbers.cast<num>(), false));
   }
   
   @override
@@ -37,7 +38,18 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Container()
+      home: const Scaffold(
+        backgroundColor: Colors.white,
+        body: Center(
+          child: Text(
+            "HELLO WORLD",
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 40
+            ),
+          ),
+        ),
+      )
     );
   }
 }
