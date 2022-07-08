@@ -1,3 +1,7 @@
+## [0.0.3] - 08-07-2022
+
+* Update formatting
+
 ## [0.0.2] - 08-07-2022
 
 * Add find min max number from list

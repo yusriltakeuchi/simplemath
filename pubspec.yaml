@@ -1,6 +1,6 @@
 name: simplemath
 description: Simple library that functions to perform mathematical calculations instantly
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/yusriltakeuchi/simplemath.git
 
 environment:
